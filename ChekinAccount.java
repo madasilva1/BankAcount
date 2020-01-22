@@ -1,4 +1,5 @@
 public class  ChekinAccount extends BankAccount {
+    private int limit;
     public void SetAccount(String account){
         this.account = account;
     }
@@ -8,6 +9,9 @@ public class  ChekinAccount extends BankAccount {
     public void SetBalance(int balance){
         this.balance = balance;
     }
-    int limt;
+
+    public void SetLimit(int limit){ this.limit = limit;}
+    public int GetLimit(){return limit;}
+
 
 }
